@@ -319,7 +319,9 @@
 <div id="toast"></div>
 
 <script>
-const API = 'http://localhost:8080/api';
+//const API = 'http://localhost:8080/api';
+  const API = 'https://jobtracker-6-wbw1.onrender.com/api';
+
 let token = localStorage.getItem('jt_token');
 let currentUser = JSON.parse(localStorage.getItem('jt_user') || 'null');
 let currentPage = 0;
